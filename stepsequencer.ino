@@ -18,11 +18,11 @@ int counter = 0;
 unsigned long lastStepTime = 0;
 
 void setup() {
-  for (int i = 0; i < 4; i++) { //set up 4 buttons as inputs
+  for (int i = 0; i <= 3; i++) { //set up 4 buttons as inputs
     pinMode(buttons[i], INPUT);
   }
 
-  for (int i = 0; i < 4; i++) { //set up 4 leds as inputs
+  for (int i = 0; i <= 3; i++) { //set up 4 leds as inputs
     pinMode(leds[i], OUTPUT);
   }
 
